@@ -2,7 +2,7 @@ const btnRed = document.getElementById("btn-red");
 const btnBlue = document.getElementById("btn-blue");
 
 let compteur = 0;
-let titre = document.getElementById(".titre");
+let titre = document.getElementById("titre");
 
 btnRed.addEventListener("click", function () {
   add();
